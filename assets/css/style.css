@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.padre {
+    display: flex;
+    flex-direction: row;
+}
+
+.sec_principal {
+    background-color: #e8ebe4;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.usuario {
+    display: flex;
+}
+.contactos {
+    background-color: white;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-top: 1px solid #d2d2d2;
+
+}
+
+.contacto_img {
+    border-radius: 150px;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.chat_button {
+    background-color: #A491D2;
+    border: none;
+    color: white;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.chat_container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext{
+    color: gray;
+    font-size: 13px;
+}
